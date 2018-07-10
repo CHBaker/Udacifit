@@ -6,7 +6,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View>
-        {getMetricMetaInfo('bike').getIcon()}
+        { getMetricMetaInfo('bike').getIcon() }
       </View>
     );
   }
