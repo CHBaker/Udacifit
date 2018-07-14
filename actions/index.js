@@ -1,7 +1,7 @@
 export const RECEIVE_ENTRIES = 'REVEIVE_ENTRIES';
 export const ADD_ENTRY = 'ADD_ENTRY';
 
-export function reveiveEntries (entries) {
+export function receiveEntries (entries) {
     return {
         type: RECEIVE_ENTRIES,
         entries,
